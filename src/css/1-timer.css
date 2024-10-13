@@ -1,0 +1,74 @@
+a {
+  display: block;
+  margin-bottom: 8px;
+}
+
+button {
+  width: 75px;
+  height: 40px;
+  padding: 8px 16px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+  background-color: #4e75ff;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+button:disabled {
+  background-color: #989898;
+}
+
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+#datetime-picker:hover {
+  border-color: #000000;
+}
+#datetime-picker:disabled {
+  border-color: #808080;
+}
+#datetime-picker:active {
+  border-color: #4e75ff;
+}
+
+.timer {
+  display: flex;
+  margin-top: 32px;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+
+.label {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+}
